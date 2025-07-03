@@ -1,5 +1,5 @@
 
-````markdown
+
 # 🧠 US Economic Insights
 
 A Python-based analysis tool that retrieves key macroeconomic indicators from the FRED API (like CPI, NFP, interest rates), analyzes today's data, forecasts possible market behavior for the next day, and generates **basic trading signals** based on macro trends and sentiment.
@@ -20,6 +20,7 @@ A Python-based analysis tool that retrieves key macroeconomic indicators from th
 ## 📦 Dependencies
 
 Install required packages:
+````markdown
 
 ```bash
 pip install requests pandas numpy
