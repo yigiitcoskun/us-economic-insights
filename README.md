@@ -1,3 +1,4 @@
+
 ````markdown
 # 🧠 US Economic Insights
 
@@ -66,14 +67,14 @@ FRED_API_KEY = "your_actual_fred_key"
 3. Run the script:
 
 ```bash
-python economic_analyzer.py
+python usa_econ.py
 ```
 
 4. Output:
 
 * A detailed analysis will be printed in the terminal.
 * The same content will be saved to a file like:
-  `economic_report_20250703.txt`
+  `economic_report_YYYYMMDD.txt` (e.g., `economic_report_20250703.txt`)
 
 ---
 
@@ -107,6 +108,8 @@ Fed Faiz Oranı: 5.25 (2025-06-01) - ➡️ Stabil
 
 * There are short delays between API calls (0.1s) to comply with FRED's rate limits.
 * Code comments are written in Turkish, while data structures and analysis logic follow standard English terminology and conventions.
+* 🗣️ Application language: Turkish
+
 ---
 
 ## 📃 License
@@ -118,13 +121,17 @@ MIT License
 ## 🤝 Contributions
 
 Pull requests are welcome. If you'd like to improve indicator coverage or add new models (e.g., ML-based forecast), feel free to contribute!
+
 ---
 
 ## ⚠️ Disclaimer
 
 This project is for **educational and informational purposes only** and should **not be considered investment advice**. Always do your own research and consult with a qualified financial advisor before making any investment decisions.
+
 ---
 
 ## ⚠️ Uyarı
 
 Bu proje **yalnızca eğitim ve bilgilendirme amacıyla** hazırlanmıştır, **yatırım tavsiyesi değildir**. Her zaman kendi araştırmanızı yapmalı ve yatırım kararlarınızı almadan önce uzman bir danışmana başvurmalısınız.
+
+`````
