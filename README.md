@@ -20,7 +20,7 @@ A Python-based analysis tool that retrieves key macroeconomic indicators from th
 ## 📦 Dependencies
 
 Install required packages:
-```bash
+
 ````markdown
 
 pip install requests pandas numpy
